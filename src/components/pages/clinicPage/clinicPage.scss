@@ -1,0 +1,90 @@
+@import '../../../style/vars.scss';
+
+.clinic {   
+
+    &__page-heading {
+        display: block;
+        font-size: 26px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__img {    
+        margin-bottom: 30px;
+    }
+
+    &__info {  
+        color: $descr-color; 
+        max-width: 1160px;
+        margin: 0 auto;
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__info-block { 
+        max-width: 400px;
+        flex: 1;
+        padding-left: 15px;
+    }
+
+    &__info-heading {   
+        margin-bottom: 12px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid $primary;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__info-description {   
+        text-align: center;
+    }
+
+    &__heading {    
+        margin-top: 44px;
+        margin-bottom: 50px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    &__list {   
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    &__item {
+        background: linear-gradient(135deg, #ffffff 0%, #ffffff 90%, #0d9ddf 100%);
+        border-radius: 20px;
+        box-shadow: 0px 0px 26px 2px rgba(34, 60, 80, 0.18);
+        padding: 40px 46px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item-text {  
+        max-width: 60%;
+        color: $heading-color;
+        font-size: 18px;
+    }
+
+    &__item-img {   
+        width: 400px;
+        border-radius: 22px;
+    }
+    
+    &__item-heading {   
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    &__item-description {   
+        letter-spacing: 0.3px;
+        line-height: 1.5rem;
+        font-weight: 00;
+    }
+}
