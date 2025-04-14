@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clinic/static/css/main.8811349c.css",
-    "main.js": "/clinic/static/js/main.1d6be4f3.js",
+    "main.js": "/clinic/static/js/main.ecf38578.js",
     "static/media/macdel.jpg": "/clinic/static/media/macdel.dfb3252a1bdd49ce458a.jpg",
     "static/media/rucheek.jpg": "/clinic/static/media/rucheek.05d47fe48b4dabda31c9.jpg",
     "static/media/relax.jpg": "/clinic/static/media/relax.f93899cd544874599cf4.jpg",
@@ -25,10 +25,10 @@
     "static/media/list-magnifying-glass.svg": "/clinic/static/media/list-magnifying-glass.fc3ad2eded5a3fe9103a311e38eb9e8e.svg",
     "static/media/monitor.svg": "/clinic/static/media/monitor.649dc5243247aeffb11df16718e27cbf.svg",
     "main.8811349c.css.map": "/clinic/static/css/main.8811349c.css.map",
-    "main.1d6be4f3.js.map": "/clinic/static/js/main.1d6be4f3.js.map"
+    "main.ecf38578.js.map": "/clinic/static/js/main.ecf38578.js.map"
   },
   "entrypoints": [
     "static/css/main.8811349c.css",
-    "static/js/main.1d6be4f3.js"
+    "static/js/main.ecf38578.js"
   ]
 }
