@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/clinic/static/css/main.8811349c.css",
+    "main.js": "/clinic/static/js/main.1d6be4f3.js",
+    "static/media/macdel.jpg": "/clinic/static/media/macdel.dfb3252a1bdd49ce458a.jpg",
+    "static/media/rucheek.jpg": "/clinic/static/media/rucheek.05d47fe48b4dabda31c9.jpg",
+    "static/media/relax.jpg": "/clinic/static/media/relax.f93899cd544874599cf4.jpg",
+    "static/media/apparat-main.jpg": "/clinic/static/media/apparat-main.0d96e55b69847f012585.jpg",
+    "static/media/therapy.jpg": "/clinic/static/media/therapy.1b0efdc758a18064d5ef.jpg",
+    "static/media/last.jpg": "/clinic/static/media/last.097d46516320725efe4b.jpg",
+    "static/media/m2.png": "/clinic/static/media/m2.42a352d3d1ca67aedeef.png",
+    "static/media/amblicor.jpg": "/clinic/static/media/amblicor.f13db7b31709f5334386.jpg",
+    "static/media/pleoptika.jpg": "/clinic/static/media/pleoptika.68efca366dabd8c8d084.jpg",
+    "static/media/sakkada.jpg": "/clinic/static/media/sakkada.09dc38e6962fb904d88d.jpg",
+    "static/media/sinoptofor.jpg": "/clinic/static/media/sinoptofor.d4a7c96f78194a8aa2e6.jpg",
+    "static/media/liences.jpg": "/clinic/static/media/liences.3a05e141c5193fb8fee8.jpg",
+    "static/media/apparat.jpg": "/clinic/static/media/apparat.92b34f8d151898b5bda5.jpg",
+    "static/media/vizotronik.jpg": "/clinic/static/media/vizotronik.b8201c0e943b1799c36b.jpg",
+    "static/media/logo.jpg": "/clinic/static/media/logo.2002089ae8c202b249a7.jpg",
+    "static/media/amoatos.jpg": "/clinic/static/media/amoatos.291c314aef1a9d315015.jpg",
+    "index.html": "/clinic/index.html",
+    "static/media/user-circle-check.svg": "/clinic/static/media/user-circle-check.d7d63f0464bf5e4b1936624a5c48c16b.svg",
+    "static/media/shield-check.svg": "/clinic/static/media/shield-check.245d2567fc6c1f4da743d3c2e1944aca.svg",
+    "static/media/stethoscope.svg": "/clinic/static/media/stethoscope.e351916531a783097ffcbdaba0558b4c.svg",
+    "static/media/list-magnifying-glass.svg": "/clinic/static/media/list-magnifying-glass.fc3ad2eded5a3fe9103a311e38eb9e8e.svg",
+    "static/media/monitor.svg": "/clinic/static/media/monitor.649dc5243247aeffb11df16718e27cbf.svg",
+    "main.8811349c.css.map": "/clinic/static/css/main.8811349c.css.map",
+    "main.1d6be4f3.js.map": "/clinic/static/js/main.1d6be4f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8811349c.css",
+    "static/js/main.1d6be4f3.js"
+  ]
+}
