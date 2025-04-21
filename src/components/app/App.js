@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/kdo-clinic" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/lenses" element={<LensesPage />} />
         <Route path="/clinic" element={<ClinicPage />} />
         <Route path="/therapy" element={<TherapyPage />} />
