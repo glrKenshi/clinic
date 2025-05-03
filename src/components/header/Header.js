@@ -57,10 +57,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </li>
-                <Link to="clinic/price">
+                <Link to="/price">
                     <li className="nav__item">Цены</li>
                 </Link>
-                <Link to="clinic/doctors">
+                <Link to="/doctors">
                     <li className="nav__item">Специалисты</li>
                 </Link>
                 <li className="nav__item">Контакты</li>
