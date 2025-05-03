@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
         <header class="header">
-            <Link to="clinic/">
+            <Link to="/">
                 <div class="logo">
                     <img class="logo__img" src={logo} alt="" />
                     <div class="logo__text">
@@ -29,29 +29,29 @@ const Header = () => {
         </header>
         <nav className="nav">
             <ul className="nav__list">
-                <Link to="clinic/">
+                <Link to="/">
                     <li className="nav__item">Главная</li>
                 </Link>
                 <li className="nav__item nav__item-menu">
                     Услуги
                     <ul className="nav__drop-list">
                         <li className="nav__drop-item">
-                            <Link to="clinic/diagnostic">
+                            <Link to="/diagnostic">
                                 Комплексная диагностика
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="clinic/device">
+                            <Link to="/device">
                                 Аппаратное лечение
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="clinic/lenses">
+                            <Link to="/lenses">
                                 Ортокератология
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="clinic/therapy">
+                            <Link to="/therapy">
                                 Физеотерапия
                             </Link>
                         </li>
