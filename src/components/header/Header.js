@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 
-import logo from '../../imgs/logo.jpg'
+import logo from '../../imgs/logo.png'
 import "./header.scss"
 
 const Header = () => {
@@ -36,18 +36,23 @@ const Header = () => {
                     Услуги
                     <ul className="nav__drop-list">
                         <li className="nav__drop-item">
-                            <Link to="/therapy">
-                                Физеотерапия
-                            </Link>
-                        </li>
-                        <li className="nav__drop-item">
-                            <Link to="/lenses">
-                                Ночные линзы
+                            <Link to="/diagnostic">
+                                Комплексная диагностика
                             </Link>
                         </li>
                         <li className="nav__drop-item">
                             <Link to="/device">
                                 Аппаратное лечение
+                            </Link>
+                        </li>
+                        <li className="nav__drop-item">
+                            <Link to="/lenses">
+                                Ортокератология
+                            </Link>
+                        </li>
+                        <li className="nav__drop-item">
+                            <Link to="/therapy">
+                                Физеотерапия
                             </Link>
                         </li>
                     </ul>
@@ -57,9 +62,6 @@ const Header = () => {
                 </Link>
                 <Link to="/doctors">
                     <li className="nav__item">Специалисты</li>
-                </Link>
-                <Link to="/clinic">
-                    <li className="nav__item">Клиника</li>
                 </Link>
                 <li className="nav__item">Контакты</li>
             </ul>

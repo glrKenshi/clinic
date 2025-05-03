@@ -11,14 +11,21 @@
         top: -80px;
     }
 
+    &__content {    
+        max-width: 45%;
+    }
+
     &__heading {
         font-size: 40px;
         line-height: 44px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
-    &__content {    
-        max-width: 50%;
+    &__title {  
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        color: rgb(39, 49, 63);
     }
 
     &__description {    
@@ -28,12 +35,8 @@
         line-height: 28px;
     }
 
-    &__btn {    
-        padding: 10px 14px;
-        background-color: $primary;
-        border-radius: 20px;
+    &__about {    
         font-weight: 600;
-        color: #ffffff;
         font-size: 14px;
     }
 }

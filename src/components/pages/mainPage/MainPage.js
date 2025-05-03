@@ -22,9 +22,12 @@ const MainPage = () => {
             <main>
                 <section className="hero">
                     <div className="hero__content">
-                        <h1 className="section-heading hero__heading">Клиника мирового класса в&nbsp;Белгороде</h1>
+                        <div className="hero__heading-box">
+                            <h1 className="section-heading hero__heading">Клиника Детской Офтальмологии</h1>
+                        </div>
+                        <p className="hero__title">Где будущее зрение становится реальностью</p>
                         <p className="hero__description">Вы&nbsp;ищете лучших специалистов для заботы о&nbsp;зрении своего ребенка? Добро пожаловать в&nbsp;нашу детскую офтальмологическую клинику! Мы&nbsp;предлагаем комплексное решение проблем со&nbsp;зрением у&nbsp;детей любого возраста</p>
-                        <button className="hero__btn">Подробнее</button>
+                        <p className="hero__about">Наша цель&nbsp;&mdash; не&nbsp;просто улучшить зрение, а&nbsp;обеспечить его здоровье на&nbsp;всю жизнь</p>
                     </div>
                     <img src={img} alt="" className="hero__img" />
                 </section>
@@ -41,12 +44,17 @@ const MainPage = () => {
                         <li className="about__item">
                             <img className="about__icon" src={monitor} alt="" />
                             <h2 className="about__text-heading">Современные технологии</h2>
-                            <p className="about__text-descr">Мы используем передовое оборудование для точной диагностики и эффективного лечения</p>
+                            <p className="about__text-descr">Мы используем самые современные методы лечения, включая аппаратное лечение различных диагнозов и ортокератологическое лечение</p>
+                        </li>
+                        <li className="about__item">
+                            <img className="about__icon" src={user} alt="" />
+                            <h2 className="about__text-heading">Узкая специализаци</h2>
+                            <p className="about__text-descr">Мы специализируемся исключительно на детской офтальмологии. Это позволяет нам глубоко понимать особенности зрения детей и предлагать наиболее эффективные решения</p>
                         </li>
                         <li className="about__item">
                             <img className="about__icon" src={user} alt="" />
                             <h2 className="about__text-heading">Индивидуальный подход</h2>
-                            <p className="about__text-descr">Каждый ребенок уникален, и мы разрабатываем персональные планы лечения, учитывая особенности каждого маленького пациента</p>
+                            <p className="about__text-descr">Мы видим в каждом ребенке личность и разрабатываем индивидуальный план лечения, учитывающий его потребности и особенности</p>
                         </li>
                         <li className="about__item">
                             <img className="about__icon" src={shield} alt="" />
@@ -71,38 +79,33 @@ const MainPage = () => {
                             <img src={angle} alt="" />
                         </a>
                     </div>
-                    <ul className="doctors__tabs">
-                        <li className="doctors__tab doctors__tab--active">Офтальмологи</li>
-                        <li className="doctors__tab">Физиотерапевты</li>
-                        <li className="doctors__tab">Руководители</li>
-                    </ul>
                     <ul className="doctors__list">
                         <li className="doctors__item">
-                            <div className="doctors__item--top"></div>
+                            <div className="doctors__item--top doctors__jernova"></div>
                             <div className="doctors__item--bot">
                                 <div className="doctors__item--name">Жерновая Лариса Михайловна</div>
                                 <div className="doctors__item--descr">Детский офтальмолог</div>
                             </div>
                         </li>
                         <li className="doctors__item">
-                            <div className="doctors__item--top"></div>
+                            <div className="doctors__item--top doctors__skorikova"></div>
                             <div className="doctors__item--bot">
-                                <div className="doctors__item--name">Жерновая Лариса Михайловна</div>
+                                <div className="doctors__item--name">Скорикова Тамара Николаевна</div>
                                 <div className="doctors__item--descr">Детский офтальмолог</div>
                             </div>
                         </li>
                         <li className="doctors__item">
-                            <div className="doctors__item--top"></div>
+                            <div className="doctors__item--top doctors__getman"></div>
                             <div className="doctors__item--bot">
-                                <div className="doctors__item--name">Жерновая Лариса Михайловна</div>
-                                <div className="doctors__item--descr">Детский офтальмолог</div>
+                                <div className="doctors__item--name">Гетьман Валерия Валерьевна</div>
+                                <div className="doctors__item--descr">Администратор</div>
                             </div>
                         </li>
                         <li className="doctors__item">
-                            <div className="doctors__item--top"></div>
+                            <div className="doctors__item--top doctors__pereligina"></div>
                             <div className="doctors__item--bot">
-                                <div className="doctors__item--name">Жерновая Лариса Михайловна</div>
-                                <div className="doctors__item--descr">Детский офтальмолог</div>
+                                <div className="doctors__item--name">Перелыгина Анастасия Станиславовна</div>
+                                <div className="doctors__item--descr">Оптометрист</div>
                             </div>
                         </li>
                     </ul>
@@ -113,9 +116,6 @@ const MainPage = () => {
                     <h2 className="section-heading service__heading">
                         Наши услуги
                     </h2>
-                    <p className="section-descr service__descr">
-                        В клинике Энергия жизни представлены услуги для детей и взрослых. Запишитесь на прием к терапевту или узкому специалисту. Доктор выслушает вас, направит на обследование, а затем подберет индивидуальный план лечения. Если нужно, мы приедем к вам домой в любую точку города и осмотрим всю семью
-                    </p>
                     <ul className="service__list">
                         <li className="service__item service__item--lenses">
                             <h3 className="service__item-heading">

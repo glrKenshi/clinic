@@ -66,11 +66,26 @@
         border-top-right-radius: 5px;
         padding: 10px;
         background-color: rgb(144, 177, 204);
-        background-image: url();
-        background-size: 220px;
+        background-size: 300px;
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    &__jernova {    
+        background-image: url('../../../../imgs/doctors/Jernova.png');
+    }
+
+    &__skorikova {  
+        background-image: url('../../../../imgs/doctors/Skorikova.png');
+    }
+
+    &__getman {
+        background-image: url('../../../../imgs/doctors/Getman.png');
+    }
+
+    // &__pereligina { 
+    //     background-image: url('../../../../imgs/doctors/');
+    // }
 
     &__item--bot {   
         font-size: 15px;

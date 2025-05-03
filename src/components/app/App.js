@@ -5,9 +5,10 @@ import MainPage from "../pages/mainPage/MainPage"
 import DoctorsPage from "../pages/doctorsPage/DoctorsPage"
 import ClinicPage from "../pages/clinicPage/ClinicPage";
 import PricePage from "../pages/pricePage/PricePage";
-import LensesPage from "../pages/servicePages/LensesPage";
-import TherapyPage from "../pages/servicePages/TherapyPage";
-import DevicePage from "../pages/servicePages/DevicePage";
+import LensesPage from "../pages/lensesPage/LensesPage";
+import TherapyPage from "../pages/therapyPage/TherapyPage";
+import DevicePage from "../pages/devicePage/DevicePage";
+import DiagnosticPage from "../pages/diagnosticPage/DiagnosticPage";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/" element={<MainPage />} />
         <Route path="/lenses" element={<LensesPage />} />
         <Route path="/clinic" element={<ClinicPage />} />
+        <Route path="/diagnostic" element={<DiagnosticPage />} />
         <Route path="/therapy" element={<TherapyPage />} />
         <Route path="/device" element={<DevicePage />} />
         <Route path="/doctors" element={<DoctorsPage />} /> 
