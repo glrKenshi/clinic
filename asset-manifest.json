@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clinic/static/css/main.8c9866db.css",
-    "main.js": "/clinic/static/js/main.8760fe96.js",
+    "main.js": "/clinic/static/js/main.cd77499e.js",
     "static/media/logo.png": "/clinic/static/media/logo.ea19d44e8dbec9e7e075.png",
     "static/media/apparat-main.jpg": "/clinic/static/media/apparat-main.0d96e55b69847f012585.jpg",
     "static/media/Skorikova.png": "/clinic/static/media/Skorikova.db8b60eaa0661b130d1c.png",
@@ -40,10 +40,10 @@
     "static/media/list-magnifying-glass.svg": "/clinic/static/media/list-magnifying-glass.fc3ad2eded5a3fe9103a311e38eb9e8e.svg",
     "static/media/monitor.svg": "/clinic/static/media/monitor.649dc5243247aeffb11df16718e27cbf.svg",
     "main.8c9866db.css.map": "/clinic/static/css/main.8c9866db.css.map",
-    "main.8760fe96.js.map": "/clinic/static/js/main.8760fe96.js.map"
+    "main.cd77499e.js.map": "/clinic/static/js/main.cd77499e.js.map"
   },
   "entrypoints": [
     "static/css/main.8c9866db.css",
-    "static/js/main.8760fe96.js"
+    "static/js/main.cd77499e.js"
   ]
 }
