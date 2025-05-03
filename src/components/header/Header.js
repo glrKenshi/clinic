@@ -29,38 +29,38 @@ const Header = () => {
         </header>
         <nav className="nav">
             <ul className="nav__list">
-                <Link to="/">
+                <Link to="clinic/">
                     <li className="nav__item">Главная</li>
                 </Link>
                 <li className="nav__item nav__item-menu">
                     Услуги
                     <ul className="nav__drop-list">
                         <li className="nav__drop-item">
-                            <Link to="/diagnostic">
+                            <Link to="clinic/diagnostic">
                                 Комплексная диагностика
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="/device">
+                            <Link to="clinic/device">
                                 Аппаратное лечение
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="/lenses">
+                            <Link to="clinic/lenses">
                                 Ортокератология
                             </Link>
                         </li>
                         <li className="nav__drop-item">
-                            <Link to="/therapy">
+                            <Link to="clinic/therapy">
                                 Физеотерапия
                             </Link>
                         </li>
                     </ul>
                 </li>
-                <Link to="/price">
+                <Link to="clinic/price">
                     <li className="nav__item">Цены</li>
                 </Link>
-                <Link to="/doctors">
+                <Link to="clinic/doctors">
                     <li className="nav__item">Специалисты</li>
                 </Link>
                 <li className="nav__item">Контакты</li>

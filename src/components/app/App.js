@@ -15,13 +15,13 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/lenses" element={<LensesPage />} />
-        <Route path="/diagnostic" element={<DiagnosticPage />} />
-        <Route path="/therapy" element={<TherapyPage />} />
-        <Route path="/device" element={<DevicePage />} />
-        <Route path="/doctors" element={<DoctorsPage />} /> 
-        <Route path="/price" element={<PricePage />} />
+        <Route path="clinic/" element={<MainPage />} />
+        <Route path="clinic/lenses" element={<LensesPage />} />
+        <Route path="clinic/diagnostic" element={<DiagnosticPage />} />
+        <Route path="clinic/therapy" element={<TherapyPage />} />
+        <Route path="clinic/device" element={<DevicePage />} />
+        <Route path="clinic/doctors" element={<DoctorsPage />} /> 
+        <Route path="clinic/price" element={<PricePage />} />
       </Routes>
     </Router>
   )
