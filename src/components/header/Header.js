@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <header class="header">
-                <Link to="/">
+                <Link to="clinic/">
                     <div class="logo">
                         <img class="logo__img" src={logo} alt="" />
                         <div class="logo__text">
@@ -29,7 +29,7 @@ const Header = () => {
             </header>
             <nav className="nav">
                 <ul className="nav__list">
-                    <Link to="/">
+                    <Link to="clinic/">
                         <li className="nav__item">Главная</li>
                     </Link>
                     <li className="nav__item nav__item-menu">
