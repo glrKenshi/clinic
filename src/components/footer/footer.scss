@@ -1,0 +1,48 @@
+@import '../../style/vars.scss';
+
+.footer {   
+    margin-top: 300px;
+    border-top: 1px solid #c0c5cf;
+    height: 240px;
+    padding: 40px 0;
+    color: $descr-color;
+    font-size: 14px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {   
+        flex-basis: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    &__nav {    
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        a { 
+            transition: all ease .2s;
+        }
+
+        a:hover {   
+            color: #0d9ddf;
+        }
+    }
+
+    &__contact {    
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    &__contact-heading {    
+        font-weight: 500;
+    }
+    
+}

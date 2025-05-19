@@ -1,0 +1,71 @@
+@import '../../../style/vars.scss';
+
+.price {    
+    
+    &__container {
+        // height: 100vh;
+    }
+
+    &__heading {    
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 26px;
+        text-align: center;
+        padding-bottom: 6px;
+        border-bottom: 2px solid $primary;
+    }
+
+    &__accordion-item {    
+
+        &:not(:last-child) {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2)
+        }
+    }
+
+    &__accordion-header {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        padding: 24px;
+        background-color: $primary;
+        cursor: pointer;
+    }
+
+    &__accordion-content {  
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+
+        &.open {    
+            max-height: 1000px;
+        }
+    }
+
+    &__list {   
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 32px 24px;
+        border-left: 2px solid $primary;
+        border-right: 2px solid $primary;
+        border-bottom: 2px solid $primary;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background-color: white;
+    }
+
+    &__item {   
+        color: $heading-color;
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $descr-color;
+    }
+
+    &__item-price { 
+        text-align: start;
+    }
+
+}
+
+  

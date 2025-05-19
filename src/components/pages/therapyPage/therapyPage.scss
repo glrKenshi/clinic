@@ -1,0 +1,153 @@
+@import '../../../style/vars.scss';
+
+.therapy-page { 
+    &__main {
+        margin-top: 60px;
+        margin-bottom: 140px;
+        display: flex;
+        gap: 20px;
+        border: 3px solid #0d9ddf;
+        padding: 20px;
+        border-radius: 20px;
+
+        &__img {    
+            min-height: 360px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 12px;
+            flex-basis: 50%;
+            background-image: url('../../../imgs/therapy.jpg')
+        }
+
+        &__text {   
+            flex-basis: 50%;
+        }
+
+        &__heading {    
+            margin-bottom: 25px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+    }
+
+    &__about {
+        min-height: 400px;
+        margin-bottom: 80px;
+        
+        &__heading {
+          font-size: 24px;
+          margin-bottom: 30px;
+          color: #27313f;
+        }
+    }
+
+    &__tabs-container {   
+        display: flex;
+        min-height: 310px;
+        gap: 60px;
+      }
+
+      &__tabs-list {    
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        border-right: 1px solid #27313f;
+        padding-right: 60px;
+      }
+
+      &__tab-button {   
+        width: 300px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all ease .2s;
+
+        &.active {  
+          color: #0d9ddf;
+        }
+
+        &:hover { 
+          color: #0d9ddf;
+        }
+      }
+
+      &__tab-content {  
+        h2 {  
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+
+        h2, p {
+            animation: fadeInUp 0.5s ease forwards;
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+      }
+
+    &__img1 { 
+        background-image: url('../../../imgs/therapyPage/1.jpg');
+      }
+
+      &__img2 { 
+        background-image: url('../../../imgs/therapyPage/2.jpg');
+      }
+
+      &__img3 { 
+        background-image: url('../../../imgs/therapyPage/3.jpg');
+      }
+
+      &__img4 { 
+        background-image: url('../../../imgs/therapyPage/4.jpg');
+      }
+
+
+    &__expl {   
+
+        margin-bottom: 80px;
+
+        &__heading {    
+            font-size: 24px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        &__list {   
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px 20px;
+        }
+
+        &__item {   
+            display: flex;
+            justify-content: end;
+            flex-direction: column;
+            height: 380px;
+            border-radius: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        &__name {   
+            padding: 14px 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            background-color: rgba(86, 152, 206, 0.8);
+        }
+    }
+}

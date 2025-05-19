@@ -1,0 +1,42 @@
+@import '../../../../style/vars.scss';
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    &__img {
+        position: relative;
+        width: 45%;
+        top: -80px;
+    }
+
+    &__content {    
+        max-width: 45%;
+    }
+
+    &__heading {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 15px;
+    }
+
+    &__title {  
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        color: rgb(39, 49, 63);
+    }
+
+    &__description {    
+        color: $descr-color;
+        max-width: 90%;
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+
+    &__about {    
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
